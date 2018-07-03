@@ -29,7 +29,7 @@ namespace PrimeiroPrograma
             Console.WriteLine(x);
             Console.WriteLine(x.ToString("F2"));
             Console.WriteLine(x.ToString("F4"));
-            // ALTERANDO O SÍ
+            // ALTERANDO O SISTEMA DE PONTUAÇÃO DE VÍRGULA PARA PONTO
             Console.WriteLine(x.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine(x.ToString("F4", CultureInfo.InvariantCulture));
 
