@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Globalization;
+using System.Globalization; // INCLUSÃO DESSA BIBLIOTECA
 
 namespace PrimeiroPrograma
 {
@@ -29,6 +29,7 @@ namespace PrimeiroPrograma
             Console.WriteLine(x);
             Console.WriteLine(x.ToString("F2"));
             Console.WriteLine(x.ToString("F4"));
+            // ALTERANDO O SÍ
             Console.WriteLine(x.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine(x.ToString("F4", CultureInfo.InvariantCulture));
 
