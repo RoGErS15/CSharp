@@ -1,8 +1,4 @@
-/*
-NOME: Formulário básico
-AUTOR: Adriano Leite da Silva
-DATA: 04/07/2018
-===================================================================================================
+/*===================================================================================================
 ## FUNCIONALIDADE
     ALGORITMO CRIADO PARA FUNCIONAR COMO UM SISTEMA DE CADASTRO BÁSICO
     ONDE O USUÁRIO DIGITA ALGUMAS INFORMAÇÕES E O SISTEMA APRESENTA AS MESMAS INFORMAÇÕES
@@ -13,9 +9,7 @@ DATA: 04/07/2018
     - ESTRUTURAR OS COMANDOS DE LEITURA E ESCRITA;
     - PEGAR OS VALORES DIGITADOS PELO USUÁRIO E ATRIBUI-LOS A VARIÁVEL;
     - APRESENTAR OS VALORES QUE FORAM DIGITADOS
-===================================================================================================
- */
-
+===================================================================================================*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
