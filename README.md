@@ -16,3 +16,14 @@ Aqui irei colocar todos os códigos criados nas aulas de programação com C#.
 - Pegar os valores digitados pelo usuário e atribui-los a uma determinada variável;
 - Apresentar todos os valores.
 - Código fonte https://github.com/adrianoleitedasilva/CSharp/blob/master/FormularioBasico.cs
+
+#### Média Simples
+- Criamos um algoritmo que lê as quatro notas digitadas pelo usuário e efetua o cálculo da média. Devendo apresentar ao final o valor digitado.
+- Cálculo aritmético;
+- Código fonte https://github.com/adrianoleitedasilva/CSharp/blob/master/Media.cs
+
+#### Atualização de Saldo
+- Criamos um algoritmo que recebe o valor de um cheque e soma com o valor que já temos na conta;
+- Calculos
+- Código fonte https://github.com/adrianoleitedasilva/CSharp/blob/master/AtualizaSaldo.cs
+
