@@ -26,3 +26,6 @@ Aqui irei colocar todos os códigos criados nas aulas de programação com C#.
 - Calculos;
 - Código fonte https://github.com/adrianoleitedasilva/CSharp/blob/master/AtualizaSaldo.cs
 
+### Peso da Nota
+- Criamos um algoritmo que recebe três notas e calcula baseado no peso. Sendo: Primeira Nota - peso 02, Segunda Nota - peso 03 e Terceira Nota - 05;
+- Código fonte https://github.com/adrianoleitedasilva/CSharp/blob/master/PesoDaNota.cs
