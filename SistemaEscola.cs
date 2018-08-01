@@ -69,7 +69,6 @@ namespace VerificaSexo
             Console.WriteLine("Quarta nota: " + notaQuatro);
             Console.WriteLine(" ");
 
-
             if (media >= 6){
                 Console.WriteLine("O aluno foi APROVADO!");
                 Console.WriteLine("======================================");
@@ -89,8 +88,6 @@ namespace VerificaSexo
             Console.WriteLine("================================================");
 
             Console.ReadLine();
-
-
         }
     }
 }
