@@ -14,6 +14,7 @@ namespace VerificaSexo
             string nomeDoAluno, nomeDoPai, nomeDaMae;
             char sexoDoAluno;
 
+            Console.ForegroundColor = ConsoleColor.White;
             // CONFIGURANDO O HEADER DO SISTEMA
             Console.WriteLine("====================");
             Console.WriteLine("Sistema da Escola XYZ");
@@ -69,22 +70,31 @@ namespace VerificaSexo
             Console.WriteLine("Quarta nota: " + notaQuatro);
             Console.WriteLine(" ");
 
-            if (media >= 6){
+            if (media >= 6)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("O aluno foi APROVADO!");
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("======================================");
-                Console.WriteLine(nomeDoPai+" e " + nomeDaMae+",");
+                Console.BackgroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine(nomeDoPai + " e " + nomeDaMae + ",");
                 Console.WriteLine("Parabéns pelo ótimo trabalho desenvolvido com o(a), " + nomeDoAluno);
-                Console.WriteLine("======================================");
-            } else{
+                Console.BackgroundColor = ConsoleColor.Black;
+                } else{
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("O aluno foi REPROVADO!");
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("======================================");
+                Console.BackgroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine(nomeDoPai + " e " + nomeDaMae + ",");
                 Console.WriteLine("Vamos trabalhar mais com o(a), " + nomeDoAluno + " para que ele(a) se recupere!");
-                Console.WriteLine("======================================");
+                Console.BackgroundColor = ConsoleColor.Black;                
             }
- 
+
             Console.WriteLine("================================================");
+            Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.WriteLine(" Aperte qualquer tecla para encerrar o sistema! ");
+            Console.BackgroundColor = ConsoleColor.Black;
             Console.WriteLine("================================================");
 
             Console.ReadLine();
