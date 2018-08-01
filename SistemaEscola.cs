@@ -4,15 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaEscola
+namespace VerificaSexo
 {
     class Program
     {
         static void Main(string[] args)
         {
+            // DECLARANDO AS VARIÁVEIS
             double media, notaUm, notaDois, notaTres, notaQuatro;
             string nomeDoAluno, nomeDoPai, nomeDaMae;
             char sexoDoAluno;
+            int idade, anoAtual, anoNascimento;
+
+            anoAtual = 2018;
 
             Console.ForegroundColor = ConsoleColor.White;
             // CONFIGURANDO O HEADER DO SISTEMA
@@ -32,6 +36,12 @@ namespace SistemaEscola
 
             Console.Write("Digite o nome da Mãe: ");
             nomeDaMae = Console.ReadLine();
+
+            // RECEBENDO O ANO DE NASCIMENTO E CALCULANDO A IDADE
+            Console.Write("Digite o ANO DE NASCIMENTO: ");
+            anoNascimento = int.Parse(Console.ReadLine());
+
+            idade = anoAtual - anoNascimento;
 
             // RECEBENDO AS NOTAS
             Console.Write("Digite a Primeira Nota: ");
@@ -61,6 +71,7 @@ namespace SistemaEscola
             Console.WriteLine(" ");
             Console.WriteLine("O aluno " + nomeDoAluno);
             Console.WriteLine("O aluno teve média: " + media);
+            Console.WriteLine("O aluno tem idade de: " + idade);
             Console.WriteLine(" ");
             Console.WriteLine("Notas do ano: ");
             Console.WriteLine(" ");
